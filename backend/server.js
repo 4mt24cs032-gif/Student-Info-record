@@ -36,12 +36,12 @@ app.get("/seed", async (req, res) => {
 
   await Member.insertMany([
     {
-      name: "Anush",
-      branch: "Computer Science",
-      usn: "4MT24CS032",
-      interests: "Coding, UI/UX",
-      address: "Moodbidri,Dakshina Kannada, Karnataka, India",
-      profilePic: "http://localhost:5000/uploads/anush.jpg"
+      name: "Member1_Name",
+      branch: "Member1_Branch",
+      usn: "Member1_USN",
+      interests: "Member1_Intrests",
+      address: "Member1_Address",
+      profilePic: "http://localhost:5000/uploads/Demo.jpg"
     },
     {
       name: "Amit Sharma",
