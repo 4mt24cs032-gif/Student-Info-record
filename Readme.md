@@ -70,19 +70,7 @@ npm install
 
 ---
 
-### 3. Start MongoDB
-
-Run MongoDB locally:
-
-```id="yx5n6o"
-mongod
-```
-
-(or open MongoDB Compass)
-
----
-
-### 4. Start Backend
+### 4. Start Backend (Use seperate terminal (powershell))
 
 ```id="m6v2nq"
 cd backend
@@ -109,8 +97,8 @@ http://localhost:5000/seed
 👉 This inserts sample data into MongoDB
 
 ---
-
-### 6. Start Frontend
+ 
+### 6. Start Frontend (Use seperate terminal (powershell))
 
 ```id="0j8r5k"
 cd frontend
@@ -152,15 +140,13 @@ app.use("/uploads", express.static("uploads"));
 Example:
 
 ```js id="6u2b4k"
-profilePic: "http://localhost:5000/uploads/anush.jpg"
+profilePic: "http://localhost:5000/uploads/image.jpg" ---> Your Image
 ```
 
 ---
 
 ## ❗ Important Notes
 
-* Do NOT upload or copy `node_modules`
-* Always run `npm install` on a new system
 * MongoDB data is NOT included → always run `/seed`
 * Backend must run before frontend
 
@@ -194,15 +180,6 @@ http://localhost:5000/uploads/your-image.jpg
 ### ❌ Port already in use
 
 * Change port or restart system
-
----
-
-## 📌 Future Improvements
-
-* Add CRUD (Create, Update, Delete)
-* Improve UI (cards, grid layout)
-* Add image upload from frontend
-* Deploy project online
 
 ---
 
