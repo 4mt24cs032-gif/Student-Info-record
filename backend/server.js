@@ -44,36 +44,36 @@ app.get("/seed", async (req, res) => {
       profilePic: "http://localhost:5000/uploads/Demo.jpg"
     },
     {
-      name: "Amit Sharma",
-      branch: "Information Science",
-      usn: "IS002",
-      interests: "AI, ML",
-      address: "New York, USA",
-      profilePic: "https://via.placeholder.com/100"
+     name: "Member2_Name",
+     branch: "Member2_Branch",
+     usn: "Member2_USN",
+     interests: "Member2_Intrests",
+     address: "Member2_Address",
+     profilePic: "http://localhost:5000/uploads/Demo.jpg"
     },
     {
-      name: "Priya Patel",
-      branch: "Electronics",
-      usn: "EC003",
-      interests: "IoT, Robotics",
-      address: "Chicago, USA",
-      profilePic: "https://via.placeholder.com/100"
+     name: "Member3_Name",
+     branch: "Member3_Branch",
+     usn: "Member3_USN",
+     interests: "Member3_Intrests",
+     address: "Member3_Address",
+     profilePic: "http://localhost:5000/uploads/Demo.jpg"
     },
     {
-      name: "Rahul Verma",
-      branch: "Mechanical",
-      usn: "ME004",
-      interests: "Design, CAD",
-      address: "Texas, USA",
-      profilePic: "https://via.placeholder.com/100"
+     name: "Member4_Name",
+     branch: "Member4_Branch",
+     usn: "Member4_USN",
+     interests: "Member4_Intrests",
+     address: "Member4_Address",
+     profilePic: "http://localhost:5000/uploads/Demo.jpg"
     },
     {
-      name: "Sneha Reddy",
-      branch: "Civil",
-      usn: "CV005",
-      interests: "Construction, Planning",
-      address: "California, USA",
-      profilePic: "https://via.placeholder.com/100"
+     name: "Member5_Name",
+     branch: "Member5_Branch",
+     usn: "Member5_USN",
+     interests: "Member5_Intrests",
+     address: "Member5_Address",
+     profilePic: "http://localhost:5000/uploads/Demo.jpg"
     }
   ]);
 
